@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/languages/count/paulohdelia/behind-the-code-fiap-2020?color=important&style=flat-square">
 </p>
 
-O desafio da FIAP foi divido em duas partes:
+O [desafio da FIAP](https://github.com/maratonadev-br/desafio-3-2020) foi divido em duas partes:
   1. Coletar e organizar dados em formato JSON
   2. Treinar e testar o modelo do Watson Discovery
   
