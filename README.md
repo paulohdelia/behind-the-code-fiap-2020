@@ -91,3 +91,22 @@ Depois disso começou a parte que tomou maior tempo. Para melhorar o modelo, fiz
 E para finalizar coloquei o modelo em prática
 
 ![](http://drive.google.com/uc?export=view&id=1hSCY0UaPZxvan674O5MZypWk5l5oY-bm)
+
+## Passo a passo para testar os scripts
+
+Primeiro faça uma cópia do meu repositório
+
+```bash
+git clone https://github.com/paulohdelia/behind-the-code-fiap-2020.git
+```
+
+Instale as dependências que estou utilizando (nesse caso só o puppeteer)
+```bash
+npm install
+```
+
+Agora você pode rodar os scripts
+```bash
+node CreateJsonArticle.js
+node CreateJsonVideo.js
+```
