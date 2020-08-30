@@ -12,7 +12,7 @@
 
 O desafio da FIAP foi divido em duas partes:
   1. Coletar e organizar dados em formato JSON
-  2. Treinar modelo de linguagem natural com o Discovery da IBM
+  2. Treinar e testar o modelo do Watson Discovery
   
 ##  Coletar e organizar dados em formato JSON
 
@@ -77,3 +77,17 @@ fs.writeFile(`${title}.json`, json, 'utf8', () => console.log(`${title}.json cre
 ```
 
 ![](http://drive.google.com/uc?export=view&id=1D4kA-Z0x8C5l_vqnvQMMBhAYjyMfOZrx)
+
+## Treinar e testar o modelo do Watson Discovery
+
+Esta etapa foi a mais simples, e também a mais demorada
+
+Primeiro instanciei o Watson Discovery e fiz uma coleção com aqueles arquivos em JSON
+
+Depois disso começou a parte que tomou maior tempo. Para melhorar o modelo, fiz mais ou menos 50 **queries** (consultas) e validei os resultados como "relavante" ou "não relevante"
+
+![](http://drive.google.com/uc?export=view&id=1zv_Nco8_RV-fU7N1yXrRP5FhHyos0BO2)
+
+E para finalizar coloquei o modelo em prática
+
+![](http://drive.google.com/uc?export=view&id=1hSCY0UaPZxvan674O5MZypWk5l5oY-bm)
